@@ -1,9 +1,8 @@
 import React from "react";
-import styles from "./header.module.css";
 import { HeaderNav } from "../../entities";
 export function Header() {
   return (
-    <header className={styles.header}>
+    <header className="w-full h-24 flex justify-center">
       <HeaderNav />
     </header>
   );

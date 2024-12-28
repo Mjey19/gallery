@@ -5,7 +5,7 @@ import { Header } from "../../widgets";
 export default function Layout() {
   return (
     <div className="wrapper">
-      <div className="container">
+      <div className="mx-[5%]">
         <Header />
         <Outlet />
       </div>
