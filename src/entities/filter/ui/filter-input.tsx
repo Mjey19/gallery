@@ -1,5 +1,4 @@
 import { Input } from "@/shared/ui/input";
-import React from "react";
 
 export function FilterInput() {
   return (

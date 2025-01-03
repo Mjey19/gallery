@@ -7,5 +7,7 @@ export function useGetList() {
       ...catalogApi.getCatalogList(),
     });
   const list = data || [];
+  console.log(list);
+  
   return { list, isLoading, fetchNextPage, hasNextPage, isFetchingNextPage };
 }

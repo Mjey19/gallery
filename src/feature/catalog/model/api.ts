@@ -29,11 +29,3 @@ export const catalogApi = {
     });
   },
 };
-//   return fetch(url + `?page=${page}&per_page=${per_page}`, {
-//     method: "GET",
-//     headers: {
-//       Authorization: token,
-//     },
-//   })
-//     .then((res) => res.json())
-//     .catch((err) => console.log("getCatalogList err: ", err));
